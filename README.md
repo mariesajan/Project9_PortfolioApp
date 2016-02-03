@@ -10,7 +10,8 @@ Inorder to use the app, install the dependencies specified in package.json by ru
 > npm install
 
 Then save the script myscript.sql and run in the mysql server using the command
-> source <path/myscript.sql>
+> source <"path/myscript.sql">
+
 This is to create the database and tables and to insert the rows.
 
 After that, start the server using the command
