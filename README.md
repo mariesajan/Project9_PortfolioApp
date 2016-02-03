@@ -9,12 +9,14 @@ The visitors of this website can go through different portfolios to know in deta
 Inorder to use the app, install the dependencies specified in package.json by running the command
 > npm install
 
-Then save the script myscript.sql and run in the mysql server using the command
-> source <"path/myscript.sql">
+Th database used is mysql here. So install mysql server  
+[Mysql Server Download](http://dev.mysql.com/downloads/installer/)
+Then save the script myscript.sql in your local computer and run the script in the mysql command line using the command
+> source <"/localpath/myscript.sql">
 
-This is to create the database and tables and to insert the rows.
+This is to create the database & tables which are needed for the portfolio app. Also, to insert the rows into the tables which are created.
 
-After that, start the server using the command
+After successfully executing all the mysql commands in the myscript sql file , start the server using the command
 > nodemon app.js
 
 Finally start using the website by invoking at **port 3000**.
