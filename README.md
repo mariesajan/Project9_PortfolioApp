@@ -9,8 +9,8 @@ The visitors of this website can go through different portfolios to know in deta
 Inorder to use the app, install the dependencies specified in package.json by running the command
 > npm install
 
-Th database used is mysql here. So install mysql server  
-[Mysql Server Download](http://dev.mysql.com/downloads/installer/)
+Th database used is mysql here. So install mysql server  [Mysql Server Download](http://dev.mysql.com/downloads/installer/).
+
 Then save the script myscript.sql in your local computer and run the script in the mysql command line using the command
 > source <"/localpath/myscript.sql">
 
