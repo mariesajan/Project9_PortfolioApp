@@ -1,0 +1,10 @@
+{
+    "name": "Project9_PortfolioApp",
+    "dependencies": {
+        "body-parser": "*",
+        "express": "*",
+        "express-validator": "^2.18.0",
+        "mysql": "*",
+        "express-session": "*"
+    }
+}
