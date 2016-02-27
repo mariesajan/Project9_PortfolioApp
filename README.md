@@ -35,7 +35,8 @@ The admin can **add, edit** or **delete** portfolios.
 ### Known Issues
 
 * Getting error when admin add/edit portfolio:
-
-      TypeError: Cannot read property 'getFullYear' of undefined(..)
+    ```
+    TypeError: Cannot read property 'getFullYear' of undefined(..)
+    ```
 
 * Cannot upload new image for portfolio.
