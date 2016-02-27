@@ -1,31 +1,41 @@
 # Portfolio App
 
-This is a portfolio app which displays different portfolios and their details like the service, their clients,etc.
+Example app done as part of learning **MySQL**.
 
-The admin can **add, edit or and delete portfolios**. They can also **attach images** for each portfolio. _But there is a limitation for this that only already saved images can be selected for each portfolio. The user cannot upload and save a new image. This fix is pending._
+A web application to display details of various portfolios to users.
 
-The visitors of this website can go through different portfolios to know in detail. they only have the choice to view the page.
+The admin can **add, edit** or **delete** portfolios.
 
-Inorder to use the app, install the dependencies specified in package.json by running the command
-> npm install
+### Installation
 
-Th database used is mysql here. So install mysql server  [Mysql Server Download](http://dev.mysql.com/downloads/installer/).
+1.  Install  [MySQL Server](http://dev.mysql.com/downloads/installer/).
 
-Then save the script myscript.sql in your local computer and run the script in the mysql command line using the command
-> source <"/localpath/myscript.sql">
+2.  Install the dependencies
 
-This is to create the database & tables which are needed for the portfolio app. Also, to insert the rows into the tables which are created.
+    ```
+    npm install
+    ```
 
-After successfully executing all the mysql commands in the myscript sql file , start the server using the command
-> nodemon app.js
+3.  Run `myscript.sql`
+      ```
+      # To save database, tables and records in MySQL
 
-Finally start using the website by invoking at **port 3000**.
+    source "/filepath/myscript.sql"
+    ```
 
 
-### Issues to be fixed
+3.  Start the server
+    ```
+    nodemon app.js
+    ```
 
-* After adding or editing the portfolio by the admin, browser is throwing an error from the dateFormat js file
-Error is
-_TypeError: Cannot read property 'getFullYear' of undefined(..)_
+4.  Open [http://localhost:3000](http://localhost:3000)
 
-* The user should be able to upload and save a new image for the portfolio.
+
+### Known Issues
+
+* Getting error when admin add/edit portfolio:
+
+      TypeError: Cannot read property 'getFullYear' of undefined(..)
+
+* Cannot upload new image for portfolio.
