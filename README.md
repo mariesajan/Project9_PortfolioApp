@@ -20,8 +20,8 @@ The admin can **add, edit** or **delete** portfolios.
       ```
       # To save database, tables and records in MySQL
 
-    source "/filepath/myscript.sql"
-    ```
+      source "/filepath/myscript.sql"
+      ```
 
 
 3.  Start the server
