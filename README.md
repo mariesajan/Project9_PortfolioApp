@@ -1,6 +1,6 @@
 # Portfolio App
 
-Example app done as part of learning **MySQL**.
+Example app done as part of learning ** node.js and MySQL**.
 
 A web application to display details of various portfolios to users.
 
